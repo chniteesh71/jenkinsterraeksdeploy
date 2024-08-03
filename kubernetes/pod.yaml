@@ -1,0 +1,14 @@
+apiVersion : v1
+kind : Pod
+metadata :
+   name : pod-name
+   labels :
+      Author : Niteesh
+      app : vproapp
+spec :
+    containers:
+       - name : container-name
+         image : imranvisualpath/freshtomapp:V7 
+         ports :
+           - name : port-name
+             containerPort : 8080
